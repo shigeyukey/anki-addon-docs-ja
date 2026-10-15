@@ -1,0 +1,18 @@
+[book]
+authors = ["Ankitects Pty Ltd and contributors"]
+language = "ja"
+src = "src"
+title = "Anki のアドオンを書く"
+
+[output.html]
+git-repository-url = "https://github.com/shigeyukey/anki-addon-docs-ja"
+additional-css = ["css/misc.css", "css/kbd.css"]
+additional-js = ["assets/fzf.umd.js", "assets/elasticlunr.js"]
+edit-url-template = "https://github.com/shigeyukey/anki-addon-docs-ja/edit/main/{path}"
+
+[output.html.print]
+enable = false
+
+[output.html.fold]
+enable = true
+level = 0
